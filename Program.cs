@@ -73,7 +73,6 @@ namespace HwWeek3
                         else
                         {
                             Console.WriteLine("Flase");
-
                         }
                     }
                     else
