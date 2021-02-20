@@ -50,13 +50,11 @@ namespace HwWeek3
 
             if (agency == "NSA")
             {
-                if ((passWord % 10) % 30 == 1
-                    || (passWord % 10) % 30 == 3
-                    || (passWord % 10) % 30 == 5
-                    || (passWord % 10) % 30 == 6
-                    || (passWord % 10) % 30 == 10
-                    || (passWord % 10) % 30 == 15
-                    || (passWord % 10) % 30 == 30
+                if ((passWord % 10)  == 1
+                    || (passWord % 10)  == 2
+                    || (passWord % 10)  == 3
+                    || (passWord % 10)  == 5
+                    || (passWord % 10)  == 6
                     || ((passWord / 100) % 10) % 3 == 0
                     || ((passWord / 100) % 10) % 2 != 0)
                 {
